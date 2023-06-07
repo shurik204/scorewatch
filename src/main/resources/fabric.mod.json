@@ -1,0 +1,30 @@
+{
+	"schemaVersion": 1,
+	"id": "scorewatch",
+	"version": "${version}",
+	"name": "Scorewatch",
+	"description": "Let's you watch ",
+	"authors": [
+		"Me!"
+	],
+	"contact": {
+		"homepage": "https://shurik.me/",
+		"sources": "https://github.com/shurik204/scorewatch"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/scorewatch/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"me.shurik.scorewatch.ScorewatchMod"
+		]
+	},
+	"mixins": [
+		"scorewatch.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.14.21",
+		"java": ">=17"
+	},
+	"suggests": {}
+}
